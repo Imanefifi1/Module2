@@ -11,7 +11,9 @@ body {
 
   .section {
     border: 1px solid black;
-    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+    display: inline;
   }
 
   .section-title {
@@ -27,14 +29,15 @@ body {
   /* Desktop View */
   @media (min-width: 992px) {
     .section {
-      width: 33.33%;
+      width: 25%;
       float: left;
       padding: 10px;
       position: relative;
+      display: inline;
     }
 
     .section-title {
-      font-size: 18px;
+      font-size: 15px;
     }
   }
 
